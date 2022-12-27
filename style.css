@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+section{
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width:100%;
+    height: 100vh;
+    
+}
+.logo{
+ 
+margin-left: 50px;
+
+}
+nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+     color: black;
+}
+.button{
+color: black;
+text-decoration: none;
+margin-right: 18px;
+padding: 10px;
+}
+.mainheading{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+
+}
+.mainheading h1{
+    font-size: 45px
+}
+.order{
+position: absolute;
+margin-top: 44%;
+margin-left: 34%;
+}
+.custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: white;
+    background-color:rgba(23, 26, 32, 0.8);
+    border-radius: 7px;
+}
+.Existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: black;
+    background-color:rgba(244, 244, 244, 0.65);
+    border-radius: 7px;
+}
+#shop{
+    margin-top: 44%;
+    margin-left: 111%;
+}
+footer{
+color: gray;
+margin-left: 31%;
+}
